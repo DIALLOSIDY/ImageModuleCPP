@@ -1,8 +1,8 @@
 # Projet Image Module
 
 ## Contributeurs
-- [Diallo Sidy](https://github.com/diallo-sidy)
-- [Elhadj Amadou Barry](https://github.com/elhadjamadoubarry)
+- [Diallo Sidy](https://github.com/DIALLOSIDY)
+- [Elhadj Amadou Barry](https://github.com/barryelhadj23)
 - [BAH Mamadou (moi)](https://github.com/bahAli21)
 
 ## Description
