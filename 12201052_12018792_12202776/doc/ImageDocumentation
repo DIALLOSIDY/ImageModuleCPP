@@ -1,0 +1,40 @@
+/*
+   Image.cpp - Implementation of the Image class
+
+   The Image class represents a simple 2D image, where each pixel is
+   represented by a Pixel object.
+
+   Constructors:
+   - Image(): Default constructor, initializes the image dimensions to 0.
+   - Image(int dimX, int dimY): Parameterized constructor, creates an image
+     with specified dimensions and initializes the pixel array.
+
+   Destructor:
+   - ~Image(): Destructor, deallocates the dynamic memory used for the pixel array.
+
+   Public Methods:
+   - Pixel getPixel(int x, int y): Returns the Pixel at the specified coordinates.
+   - void setPixel(int x, int y, Pixel couleur): Sets the Pixel at the specified coordinates.
+   - Pixel getPixel(int x, int y) const: Const version of getPixel method.
+   - void dessinerRectangle(int Xmin, int Ymin, int Xmax, int Ymax, Pixel couleur):
+     Draws a rectangle with the specified color within the specified coordinates.
+   - void effacer(Pixel pixel): Erases the image by drawing a rectangle with the specified color.
+
+   Static Method (for testing purposes):
+   - void testRegression(): Performs regression testing on various methods of the Image class.
+
+   Class Members:
+   - int dimX, dimY: Dimensions of the image.
+   - Pixel* tabPix: Dynamic array to store the pixels of the image.
+
+   Usage:
+   - Create an Image object and perform various operations on it.
+   - Use the testRegression method for testing the functionality of the Image class.
+
+   Example:
+   ```cpp
+   Picture::Image img(3, 3);
+   Pixel p(255, 0, 0);  // Red color
+   img.dessinerRectangle(0, 0, 2, 2, p);
+   img.effacer(Pixel());  // Erase the image with default (black) color.
+   img.testRegression();  // Perform regression testing.
