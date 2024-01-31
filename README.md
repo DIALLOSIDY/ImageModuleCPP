@@ -3,7 +3,7 @@
 ## Contributeurs
 - [Diallo Sidy](https://github.com/diallo-sidy)
 - [Elhadj Amadou Barry](https://github.com/elhadjamadoubarry)
-- [BAH Mamadou (moi)](https://github.com/votreprofil)
+- [BAH Mamadou (moi)](https://github.com/bahAli21)
 
 ## Description
 Bienvenue dans notre module C++ dédié à la manipulation d'images en trinôme. Ce projet explore la subtilité entre la représentation interne et l'affichage externe des images. La classe `Image` utilise un tableau 1D caché et offre des fonctionnalités de traitement d'image de haut niveau, telles que le seuillage, le changement de palette de couleur et le dessin de formes.
